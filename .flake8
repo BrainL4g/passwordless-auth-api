@@ -1,0 +1,21 @@
+[flake8]
+max-line-length = 100
+extend-ignore =
+    # правила срезов, совместимые с black
+    E203,
+    E704,
+    # перенос строки перед бинарным оператором (конфликтует с black)
+    W503
+exclude =
+    .git,
+    __pycache__,
+    .venv,
+    .mypy_cache,
+    .pytest_cache,
+    build,
+    dist,
+    htmlcov,
+    alembic/versions
+per-file-ignores =
+    alembic/env.py:E402
+max-complexity = 12
