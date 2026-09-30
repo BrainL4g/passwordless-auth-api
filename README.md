@@ -1,1 +1,1 @@
-# asswordless-auth-api
+# Passwordless-auth-api
