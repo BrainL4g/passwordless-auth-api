@@ -1,0 +1,40 @@
+# Байт-код и кэши
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Сборка и упаковка
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Кэши инструментов
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Переменные окружения и секреты
+.env
+*.pem
+*.key
+
+# Тесты и локальные базы данных
+tests/tmp/
+*.sqlite3
+*.db
+
+# IDE
+.idea/
+.vscode/
+*.iml
